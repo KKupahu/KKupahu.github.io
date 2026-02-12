@@ -1,14 +1,5 @@
-/* ===================
-   Island Brews Menu Styles
-   =================== */
-
-/* ===================
-   Reset & Base Styles
-   =================== */
 .box-sizing {
-  box-sizing: border-box;
-.box
-   margin: 20px;
+  box-sizing: border-box; *sector
 body {
   font-family: Arial, sans-serif;
   font-size: 16px;
