@@ -1,0 +1,72 @@
+
+* {
+/* Color scheme for this site:
+   Primary: #304C89 (main brand/accent color)
+   Text: #7B2D26 (body text)
+   Text muted: #6b7280 (secondary/lighter text)
+   Background: #ffffff (page background)
+   Border: #B47EB3 (light purple borders)
+*/
+}
+
+body {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    color: #7B2D26;
+    background-color: #ffffff;
+}
+
+h1, h2, h3 {
+    line-height: 1.2;
+}
+
+h1 { font-size: 2.5rem; }
+h2 { font-size: 2rem; }
+h3 { font-size: 1.5rem; }
+
+a {
+    color: #2563eb;
+}
+
+a:hover {
+    color: #1d4ed8;
+    text-decoration: none;
+}
+
+header {
+    padding: 20px;
+    border-bottom: 1px solid #e5e7eb;
+}
+
+main {
+    padding: 40px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+footer {
+    padding: 20px;
+    border-top: 1px solid #e5e7eb;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
