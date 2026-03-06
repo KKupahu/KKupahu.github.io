@@ -4,14 +4,6 @@
    padding: 0;
 }
 
-header {
-   background-color: #5D4037;
-   color: #FFFAF0;
-   padding: 20px;
-   position: sticky;
-   top: 0;
-}
-
 body {
   font-family: Open Sans, sans-serif;
   font-size: 16px;
@@ -19,6 +11,16 @@ body {
   color: #3E2723;
   background-color: #FFFAF0;
 }
+
+header {
+   background-color: #5D4037;
+   color: #FFFAF0;
+   padding: 20px;
+   position: sticky;
+   top: 0;
+   z-index: 1000;
+}
+
 h1, h2 {
    font-family: Georgia, serif;
    color: #5D4037;
@@ -54,7 +56,6 @@ nav ul {
 nav li {
    display: inline-block;
    margin: 0 15px;
-}
 }
 
 nav a {
